@@ -27,6 +27,10 @@
   },
   "build": {
     "includeDir": "include",
-    "srcDir": "src/"
+    "srcDir": "src/",
+    "srcFilter": [
+      "+<*>",
+      "-<output_common/lut.S>"
+    ]
   }
 }
